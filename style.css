@@ -176,7 +176,7 @@ body {
 }
 .conteudo-principal-card2-card-stack-item {
   display: flex;
-  width: 60px;
+  width: 50px;
   height: 60px;
   transition: transform 0.9s;
   transform-style: preserve-3d;
@@ -258,6 +258,10 @@ body {
   }
   .conteudo-principal-card-text-subtitulo {
     font-size: 20px;
+  }
+  .conteudo-principal-card2-card-stack-item {
+    height: 50px;
+    width: 50px;
   }
 }
 
