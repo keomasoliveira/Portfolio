@@ -346,21 +346,21 @@ body {
   .conteudo-principal-card-text-subtitulo {
     font-size: 15px;
   }
-  .conteudo-principal-card2-card-stack{
-    display:flex;
+  .conteudo-principal-card2-card-stack {
+    display: flex;
     flex-wrap: wrap;
   }
- 
-  .conteudo-principal-card2-card{
-    display:flex;
+
+  .conteudo-principal-card2-card {
+    display: flex;
     flex-wrap: wrap;
   }
-  .conteudo-principal-card2{
+  .conteudo-principal-card2 {
     height: 200px;
   }
-  .cabecalho-menu{
+  .cabecalho-menu {
     flex-wrap: wrap;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
   }
 }
