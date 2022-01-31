@@ -194,7 +194,6 @@ body {
 .conteudo-portifolio-card {
   display: flex;
   width: 100%;
-
   background: linear-gradient(136.22deg, #a8fe75 7.97%, #19a6a5 69.85%),
     linear-gradient(141.89deg, #a3c9e2 -38.62%, #9618f6 44.56%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -273,7 +272,6 @@ body {
   }
   .conteudo-principal {
     flex-wrap: wrap;
-    
   }
 }
 @media (max-width: 768px) {
@@ -282,35 +280,78 @@ body {
   }
 }
 @media (max-width: 700px) {
-  .cabecalho-card{
+  .cabecalho-card {
     margin: 0 25px 0 25px;
     width: 100%;
-   flex-direction: column;
-   border-radius: 20px;
-  
+    flex-direction: column;
+    border-radius: 20px;
   }
-  .cabecalho-menu-item{
+  .cabecalho-menu-item {
     font-size: 20px;
   }
 }
 @media (max-width: 681px) {
-  .conteudo-principal-card2-card-stack-item{
+  .conteudo-principal-card2-card-stack-item {
     height: 50px;
-    width: 50px
+    width: 50px;
   }
-  .cabecalho-menu-item{
+  .cabecalho-menu-item {
     font-size: 15px;
   }
 }
 @media (max-width: 563px) {
-  .conteudo-principal-card2-card-stack-item{
-    height: 40px;
-    width: 40px
+  .conteudo-principal-card-imgprofille {
+    width: 100px;
+    height: 100px;
   }
-  .cabecalho-menu-item{
+  .conteudo-principal-card2-card-stack-item {
+    height: 40px;
+    width: 40px;
+  }
+  .cabecalho-menu-item {
     font-size: 15px;
   }
   .conteudo-portifolio-card-card-item {
     width: 99%;
+  }
+  .conteudo-principal-card-text-nome {
+    font-size: 25px;
+  }
+  .conteudo-principal-card-text-subtitulo {
+    font-size: 15px;
+  }
+}
+@media (max-width: 563px) {
+  .conteudo-principal-card-imgprofille {
+    width: 80px;
+    height: 80px;
+  }
+  .conteudo-principal-card2-card-stack-item {
+    height: 50px;
+    width: 50px;
+  }
+  .cabecalho-menu-item {
+    font-size: 15px;
+  }
+  .conteudo-portifolio-card-card-item {
+    width: 99%;
+  }
+  .conteudo-principal-card-text-nome {
+    font-size: 25px;
+  }
+  .conteudo-principal-card-text-subtitulo {
+    font-size: 15px;
+  }
+  .conteudo-principal-card2-card-stack{
+    display:flex;
+    flex-wrap: wrap;
+  }
+ 
+  .conteudo-principal-card2-card{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .conteudo-principal-card2{
+    height: 240px;
   }
 }
