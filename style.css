@@ -352,6 +352,11 @@ body {
     flex-wrap: wrap;
   }
   .conteudo-principal-card2{
-    height: 240px;
+    height: 200px;
+  }
+  .cabecalho-menu{
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
   }
 }
