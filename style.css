@@ -251,6 +251,9 @@ body {
   .conteudo-principal-card {
     width: 50%;
   }
+  .conteudo-principal-card2 {
+    width: 50%;
+  }
   .conteudo-principal-card-text-nome {
     font-size: 35px;
   }
@@ -261,7 +264,7 @@ body {
 @media (max-width: 1008px) {
   
 }
-@media (max-width: 999px) {
+@media (max-width: 1010px) {
   .conteudo-principal-card {
     align-items: center;
     justify-content: center;
