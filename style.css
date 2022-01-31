@@ -261,9 +261,7 @@ body {
     font-size: 20px;
   }
 }
-@media (max-width: 1008px) {
-  
-}
+
 @media (max-width: 1010px) {
   .conteudo-principal-card {
     align-items: center;
@@ -283,7 +281,7 @@ body {
     width: 49.5%;
   }
 }
-@media (max-width: 681px) {
+@media (max-width: 700px) {
   .cabecalho-card{
     margin: 0 25px 0 25px;
     width: 100%;
